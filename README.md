@@ -15,6 +15,7 @@ index.html :- Its the main home page of the restaurant.
 style.css :- Its the css page to give a proper presentable structure to your home page. It contains the relevant code to display and organise index.html page in a good                manner.
 
 script.js :- Its the javscript page which contains the relevant code to perform the necssary operation in the home page of the website. For eg. navigating, placing and                order etc.
+
 login.html :- This is a very important page that contains a login form. This form has to filled if a new user wants to register himself/herself. Also if any previous                   user wants to login to the site, he/she has to fill the form. This form is connected with the fire base server.
 
 ![WhatsApp Image 2022-07-10 at 8 12 49 PM](https://user-images.githubusercontent.com/93507866/178153122-aa2e663a-e937-4eeb-adbd-53499340d18b.jpeg)
