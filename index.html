@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Food / Restaurant Website</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> food. </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#food">food</a>
+      <a href="#gallery">gallery</a>
+      <a href="#menu">menu</a>
+      <a href="#order">order</a>
+      <a href="#blogs">blogs</a>
+      <a href="Login.html">Login</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Outstanding food</span>
+               <h3>Delicious cooking</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>morning moment</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Welcome to our restaurant</h3>
+      <p>Food! World's Strongest Hotel Brand*, is an iconic hospitality brand from the Indian Hotels Company Limited. The brand continues to be one of the most revered and loved hospitality brands with a legacy of over 25 years of impeccable service and genuine warmth. Embodying the spirit of “Foodness”, authentic original palaces, landmark hotels, interpret the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories</p>
+   
+      <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>Quality food</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>Food & drinks</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-3.png" alt="">
+            <h3>Expert chefs</h3>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Popular dishes</span>
+      <h3>Our delicious food</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Breakfast</h3>
+            <div class="price">Rs.49 only/</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Sabudana Khichdi & Curd Meal
+               Classic sabudana khichdi tempered with crushed peanuts,green chilles and coconut.</h3>
+            <div class="price">Rs. 399 only/</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Aloo Paratha chole & Curd
+               Delicious Aloo paratha served with chole and curd.</h3>
+            <div class="price">Rs. 305 only/</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>Dal Makhani & Paratha
+               Authentic Dal Makhni, creamy & rich at its core, will fill you with a feeling of contentment and delight.</h3>
+            <div class="price">Rs. 375 only/</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3></h3>
+            <div class="price">$49.99</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Sabudana Khichdi & Curd Meal
+         Classic sabudana khichdi tempered with crushed peanuts,green chilles and coconut.</p>
+      <div class="price">Rs 349/</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Aloo Paratha chole & Curd
+         Delicious Aloo paratha served with chole and curd.</p>
+      <div class="price">Rs. 305/</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Dal Makhani & Paratha
+         Authentic Dal Makhni, creamy & rich at its core, will fill you with a feeling of contentment and delight.</p>
+      <div class="price">Rs 375/</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Rajma Chawal
+         Home-style rajma cooked in thick & mildly spiced tomato gravy will surely make you nostalgic for home.</p>
+      <div class="price">Rs. 235/</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Kulcha Tub
+         A North Indian, speciality Kulcha is a popular soft leavened bread that melts in your mouth</p>
+      <div class="price">Rs 230/</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>our gallery</span>
+      <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/food-galler-img-1.jpg" class="box">
+         <img src="images/food-galler-img-1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-2.jpg" class="box">
+         <img src="images/food-galler-img-2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-3.jpg" class="box">
+         <img src="images/food-galler-img-3.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-4.jpg" class="box">
+         <img src="images/food-galler-img-4.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/food-galler-img-5.jpg" class="box">
+         <img src="images/food-galler-img-5.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-6.jpg" class="box">
+         <img src="images/food-galler-img-6.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>our menu</span>
+      <h3>our popular dishes</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Breakfast</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Vegetable Spring Roll</h3>
+                     <p>Mixed vegetables wrapped in spring roll sheet, deep fry served with spicy sauce.</p>
+                  </div>
+                  <div class="price">Rs.330/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Special Chilli Paneer</h3>
+                     <p>Classic Indian Chinese snack made with fried batter coated paneer and sauted with green chillies, bell pepper and onions in tangy Chinese style sauce.</p>
+                  </div>
+                  <div class="price">Rs.305/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Alfredo Pasta</h3>
+                     <p>Penne & fusilli blended together with alfredo sauce, cheese, some exotic veggies [golden corn, bell pepper, mushroom] and seasoned with italian herbs.</p>
+                  </div>
+                  <div class="price">Rs.249/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Mexican Grilled Sandwich</h3>
+                     <p> Spreading a mix of mexican style mayo and jalapeno on the bread. Laden with fresh veggies, mexican is a treat.</p>
+                  </div>
+                  <div class="price">Rs.235/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Chicken Pepperoni Pizza</h3>
+                     <p>A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese</p>
+                  </div>
+                  <div class="price">Rs.189/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Potato chilli Shots with Mayo Dip</h3>
+                     <p>Crispy and spiced potato shots served with a chessy mayonnaise dip to tantalize your tastebuds.</p>
+                  </div>
+                  <div class="price">Rs.195/</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Lunch</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Dal Makhani & Paratha</h3>
+                     <p>Authentic Dal Makhni, creamy & rich at its core, will fill you with a feeling of contentment and delight.</p>
+                  </div>
+                  <div class="price">Rs.320/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pasta In Creamy Peri Peri Sauce</h3>
+                     <p>Golden corn, bell pepper, mushroom, herbs, penne and fusilli with delicious creamy peri peri sauce.</p>
+                  </div>
+                  <div class="price">Rs.289</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Butter Chicken</h3>
+                     <p>3 Pcs Chicken| Boneless pieces of chicken covered and cooked in smooth and delicious rich tomato gravy loaded with butter.| served with salad |</p>
+                  </div>
+                  <div class="price">Rs.370/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Chicken Birynai</h3>
+                     <p>Aromatic rice blended delightfully with pieces of chicken and spiced gravy cooked in dum. |Served with raita and salad |</p>
+                  </div>
+                  <div class="price">Rs.200/</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Dinner</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Garlic Palak</h3>
+                     <p>Made with fresh spinach leaves tempered with garlic cloves and mild spices</p>
+                  </div>
+                  <div class="price">Rs.310/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Schezwan Chicken Kathi Roll</h3>
+                     <p>Chicken stuffed in whole wheat paratha</p>
+                  </div>
+                  <div class="price">Rs. 199/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Paneer Makhani Kathi Roll</h3>
+                     <p>Paneer makhana stuffed in whole wheat paratha</p>
+                  </div>
+                  <div class="price">Rs. 199/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Chicken Fried Rice</h3>
+                     <p>Chicken and vegetables cooked in a sauce combo and then mixed with rice. One another easy and most popular indo chinese style fried rice recipe</p>
+                  </div>
+                  <div class="price">Rs. 189</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Special Hydrabadi Chicken Biryani With Gravy</h3>
+                     <p>Succulent spiced chicken married with fragrant basmati that is slow cooked to create what biryani dreams are made of .</p>
+                  </div>
+                  <div class="price">Rs. 350/</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">drinks</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Choco Volcano</h3>
+                     <p>Hot bubbling gooey chocolate straight from heaven.</p>
+                  </div>
+                  <div class="price">Rs. 160/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Oreo Blast (thick Shake)</h3>
+                     <p>350 ml.</p> 
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Creamy Cold Coffee</h3>
+                     <p>350 ml.</p>
+                  </div>
+                  <div class="price">Rs. 175/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Butterscotch Smoothie</h3>
+                     <p>350 ml.</p>
+                  </div>
+                  <div class="price">Rs. 165/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cad-B Smoothie</h3>
+                     <p>350 ml.</p>
+                  </div>
+                  <div class="price">Rs. 149/</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Kitkat Shake</h3>
+                     <p>A crunchy and creamy milkshake made by blending wholesome milk with delectable KitKat and refreshing ice cream.</p>
+                  </div>
+                  <div class="price">Rs. 189/</div>
+               </div>
+            </div>
+         </div>
+
+         
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    
+</body>
+</html>
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>order now</span>
+      <h3>fast home delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60307.59083109428!2d72.840725!3d19.141651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1642222128240!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <!-- <input type="submit" value="order now" class="btn" onClick="submitForm()"> -->
+      <button onclick="submitForm()" class="btn" >order now</button>
+   </form>
+   <script src="script.js"></script>
+  
+  
+   
+</section>
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-1.jpg" alt="">
+               <span>burger</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+               
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-2.jpg" alt="">
+               <span>sandwich</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+               
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-3.jpg" alt="">
+               <span>chicken</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+              
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-4.jpg" alt="">
+               <span>ice-cream</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+              
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-5.jpg" alt="">
+               <span>pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+               
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-6.jpg" alt="">
+               <span>coffee</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">Learn how its Done</a>
+               <p>Descend into a world that was once the sole preserve of royalty, step onto the soft, white sand beaches at a secluded island or discover the hidden secrets of mist-draped hills with Food</p>
+              
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>9359919071</p>
+         <p>7385735414</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>sohamp.cse20@sbjit.edu.in</p>
+         <p>pitalesoham7@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>address</h3>
+         <p>Nagpur, India - 440022</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="www.facebook.com" class="fab fa-facebook-f"></a>
+      <a href="www.twitter.com" class="fab fa-twitter"></a>
+      <a href="www.instagram.com" class="fab fa-instagram"></a>
+      <a href="www.linkedin.com" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit"> created by <span>Group 3 G3</span> | </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+<script src="./sc.js"></script>
+<script src="./firebase_connectivity.js"></script>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase.js"></script>
+
+ 
+</html>
